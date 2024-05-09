@@ -5,7 +5,8 @@ namespace CarLotSimulator
 	{
 		
 
-		public CarLot()
+
+        public CarLot()
 		{
 		}
 	}

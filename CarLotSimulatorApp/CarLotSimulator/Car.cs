@@ -28,6 +28,16 @@ namespace CarLotSimulator
 		{
 			return "hoot";
 		}
-	}
+
+        internal void MakeHonkNoise()
+        {
+            throw new NotImplementedException();
+        }
+
+        internal void MakeEngineNoise()
+        {
+            throw new NotImplementedException();
+        }
+    }
 }
 

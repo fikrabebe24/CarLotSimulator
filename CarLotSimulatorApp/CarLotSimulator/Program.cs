@@ -43,6 +43,10 @@ namespace CarLotSimulator
             anotherCar.HonkNoise = "shrilll";
             anotherCar.IsDriveable = true;
 
+            anotherCar.MakeEngineNoise();
+
+            anotherCar.MakeHonkNoise();
+
 
             //*************BONUS*************//
 
