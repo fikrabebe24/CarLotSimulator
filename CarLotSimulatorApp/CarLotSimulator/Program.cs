@@ -47,6 +47,11 @@ namespace CarLotSimulator
 
             anotherCar.MakeHonkNoise();
 
+            Console.WriteLine($"Number of cars created: {CarLot.numberOfCars}");
+
+
+
+
 
             //*************BONUS*************//
 

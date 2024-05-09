@@ -8,7 +8,10 @@ namespace CarLotSimulator
 
         public CarLot()
 		{
+			
 		}
+
+		public static int numberOfCars;
 	}
 }
 

@@ -5,6 +5,7 @@ namespace CarLotSimulator
 	{
 		public Car()
 		{
+			CarLot.numberOfCars++;
 		}
 
         public string Make { get; set; }
@@ -31,12 +32,12 @@ namespace CarLotSimulator
 
         internal void MakeHonkNoise()
         {
-            throw new NotImplementedException();
+            
         }
 
         internal void MakeEngineNoise()
         {
-            throw new NotImplementedException();
+           
         }
     }
 }
